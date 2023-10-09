@@ -1,3 +1,4 @@
+SRC += <name>.c
 # Build Options
 #   change yes to no to disable
 #
