@@ -20,8 +20,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
+// Include the main QMK keyboard header
 #include QMK_KEYBOARD_H
 
+// Include Quantum header for additional macros and definitions
+#include "quantum.h"
+
+// Include Unicode support header (optional)
+#include "process_keycode/process_unicode.h"
+
+// Include your keymap definitions
+#include "keymap.h"
 
 //key matrix size
 //Rows are doubled up
