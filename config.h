@@ -30,7 +30,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "process_keycode/process_unicode.h"
 
 // Include your keymap definitions
-#include "keymap.h"
+#include "42kal.json"
 
 //key matrix size
 //Rows are doubled up
