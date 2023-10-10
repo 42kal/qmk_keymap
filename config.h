@@ -29,8 +29,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // Include Unicode support header (optional)
 #include "process_keycode/process_unicode.h"
 
-// Include your keymap definitions
-#include "42kal.json"
 
 //key matrix size
 //Rows are doubled up
