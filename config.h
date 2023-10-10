@@ -55,7 +55,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         ,L13, L14, L15, L16, L17, L18,   R13, R14, R15, R16, R17, R18\
                        ,L19, L20,             R19, R20               \
              ,L21, L22, L23, L24, L25,   R21, R22, R23, R24, R25     \
-
     ) \
     { \
         { L01, L02, L03, L04, L05, L06 }, \
