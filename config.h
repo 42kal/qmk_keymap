@@ -26,8 +26,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // Include Quantum header for additional macros and definitions
 #include "quantum.h"
 
-// Include Unicode support header (optional)
-#include "process_keycode/process_unicode.h"
+
 
 
 //key matrix size
