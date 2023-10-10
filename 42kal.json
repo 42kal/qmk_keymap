@@ -50,11 +50,11 @@
       "KC_LALT",
       "MO(1)",
       "KC_PGUP",
+      "KC_LCTL",
+      "KC_BSPC",
       "KC_PGDN",
       "MO(2)",
       "KC_LGUI",
-      "KC_LCTL",
-      "KC_BSPC",
       "KC_SPC",
       "KC_ENT"
     ],
@@ -93,7 +93,7 @@
       "KC_NO",
       "KC_NO",
       "KC_NO",
-      "RSFT_T(KC_ENT)",
+      "KC_RSFT",
       "KC_NO",
       "KC_NO",
       "KC_NO",
@@ -101,11 +101,11 @@
       "KC_LALT",
       "KC_TRNS",
       "KC_HOME",
+      "KC_LCTL",
+      "KC_BSPC",
       "KC_END",
       "KC_TRNS",
       "KC_LGUI",
-      "KC_LCTL",
-      "KC_BSPC",
       "KC_SPC",
       "KC_ENT"
     ],
@@ -154,13 +154,13 @@
       "KC_TRNS",
       "KC_END",
       "KC_NO",
+      "KC_BSPC",
+      "KC_NO",
       "KC_TRNS",
       "KC_LGUI",
-      "KC_NO",
-      "KC_BSPC",
       "KC_SPC",
       "KC_ENT"
     ]
   ],
-  "author": ""
+  "author": "42kal"
 }
