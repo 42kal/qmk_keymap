@@ -35,8 +35,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //key matrix size
 //Rows are doubled up
 #define MATRIX_COLS 6
-
-
+//here lays the info that is important but can't put on here because i can't redefine it
+// # define MATRIX_ROWS 10
+// # define MATRIX_COL_PINS { D4, C6, D7, E6, B4, B5 }
+// # define MATRIX_ROW_PINS { F7, B1, B3, B2, B6 }
 
 #define MASTER_RIGHT
 
@@ -48,24 +50,22 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define BOOTMAGIC_LITE_COLUMN_RIGHT 0
 
 #define LAYOUT_split_4x6_5( \
-        L01, L02, L03, L04, L05, L06,   R01, R02, R03, R04, R05, R06\
+        L01, L02, L03, L04, L05, L06,    R01, R02, R03, R04, R05, R06\
         ,L07, L08, L09, L10, L11, L12,   R07, R08, R09, R10, R11, R12\
         ,L13, L14, L15, L16, L17, L18,   R13, R14, R15, R16, R17, R18\
                        ,L19, L20,             R19, R20               \
-                       ,L21, L22, L23,   R21, R22, R23               \
-                            ,L24, L25,   R24, R25                    \
+             ,L21, L22, L23, L24, L25,   R21, R22, R23, R24, R25     \
+
     ) \
     { \
         { L01, L02, L03, L04, L05, L06 }, \
         { L07, L08, L09, L10, L11, L12 }, \
         { L13, L14, L15, L16, L17, L18 }, \
         { KC_NO, KC_NO, KC_NO, L19, L20, KC_NO}, \
-        { KC_NO, KC_NO, KC_NO, L21, L22, L23 }, \
-        { KC_NO, KC_NO, KC_NO, KC_NO, L24, L25 }, \
+        { KC_NO, L21, L22, L23, L24, L25}, \
         { R01, R02, R03, R04, R05, R06 }, \
         { R07, R08, R09, R10, R11, R12 }, \
         { R13, R14, R15, R16, R17, R18 }, \
         { KC_NO, R19, R20, KC_NO, KC_NO, KC_NO }, \
-        { R21, R22, R23, KC_NO, KC_NO, KC_NO }, \
-        { R24, R25, KC_NO, KC_NO, KC_NO, KC_NO }  \
+        { R21, R22, R23, R24, R25, KC_NO } \
     }
